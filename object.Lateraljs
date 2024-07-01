@@ -1,0 +1,23 @@
+const user = {
+    nome: "Maria Eduarda",
+    email:"m@m.com,
+    nascimento: "21/01/2007',
+    role: "estudante",
+    ativo: true,
+    exibirInFos: function() {
+        console.log(this.nome, this.email)
+        }
+     }
+
+cont admin = {
+    nome: "Maria Eduarda",
+    email: "maria@admin.com", 
+    role: admin",
+    criarCurso() {
+        console.log('curso criado!')
+        }
+    }
+
+    Object.setPrototype0f(admin, user)
+    admin.criarCurso()
+    amin.exibirInFos    
